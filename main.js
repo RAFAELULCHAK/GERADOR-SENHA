@@ -19,4 +19,7 @@ function aumentaTamanho() {
     }
     numeroSenha.textContent = tamanhoSenha;
 }
-console.log(botoes)
+const campoSenha = document.quarySelector('#campo-senha');
+
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
